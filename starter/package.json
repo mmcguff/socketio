@@ -1,0 +1,24 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "This is the starter project as present in pluralsight.  It is intended to help me understand where socketio fits in with nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcguff/socketio.git"
+  },
+  "author": "Matthew McGuff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmcguff/socketio/issues"
+  },
+  "homepage": "https://github.com/mmcguff/socketio#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  }
+}
