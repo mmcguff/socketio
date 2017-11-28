@@ -15,6 +15,7 @@
             document.body.appendChild(
             document.createTextNode(evt.greeting));
            
+            //publishing event
             socket.emit('message-from-client',{
                 greeting:'Hello from Client'
             });

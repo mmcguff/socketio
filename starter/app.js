@@ -14,6 +14,7 @@ io.on('connection',function (socket){
     greeting:'Hello from Server' 
     });
 
+    //subscribing to the event message from client
     socket.on('message-from-client', function(msg){
         console.log(msg);
     });
