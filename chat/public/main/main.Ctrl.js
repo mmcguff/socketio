@@ -8,6 +8,6 @@
   MainCtrl.$inject = ['$scope', '$localStorage', 'socket', 'lodash'];
 
   function MainCtrl($scope, $localStorage, socket, lodash) {
-
+    $scope.mynickname = $localStorage.nickname;
   };
 })();
