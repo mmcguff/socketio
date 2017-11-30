@@ -40,6 +40,9 @@ io.on('connection', function(socket) {
 
 });
 
-server.listen(port, function() {
-  console.log("Listening on port " + port);
-});
+server.listen(process.env.PORT || 8080)
+// server.listen(port, function() {
+//   console.log("Listening on port " + port);
+// });
+
+console.log('listening on port 8080')
